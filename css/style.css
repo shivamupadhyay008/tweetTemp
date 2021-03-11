@@ -1,0 +1,234 @@
+:root{
+    --primary-col:#282828;
+    --secondary-col:#606060;
+
+}
+body{
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.seconddiv{
+    border-left:6px solid#282828;
+    border-right:6px solid#282828;
+}
+.fa,.fas,.far,.fal{
+    font-size: 20px;
+    }
+.firstdiv{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.firstdiv >span{
+
+    margin: 1rem;
+    cursor: pointer;
+    margin-left: 5rem;
+    display: block;
+
+}
+.firstdiv .name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+.top{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 1rem;
+    padding-left: 3rem;
+    border-bottom:2px solid var(--primary-col) ;
+}
+.img1{
+    height: 80px;
+    width: 11%;
+    border-radius: 8rem;
+}
+
+.feed{
+    padding: 1rem;
+    border-bottom:15px solid var(--primary-col);
+
+}
+.top-t{
+    display: flex;
+    flex: 20% 80%;
+    margin-bottom: 10px;
+}
+#txtarea{
+    margin-left: 0.5rem;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    border-color: black;
+    background-color: inherit;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+
+}
+#txtarea:focus{
+    outline:0;
+}
+.gif{
+    background-color: green;
+    color:blue;
+    width: 20px;
+}
+.insert >i{
+    color: cornflowerblue;
+    cursor: pointer;
+    margin:10px;
+    position: relative;
+    left: 5rem;
+}
+.btn1{
+    position: relative;
+    left: 22rem;
+    font-size: 25px;
+    background-color:lightblue;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    cursor: not-allowed;
+}
+.data{
+    position: relative;
+
+}
+.data1{
+    border-top: 2px solid var(--primary-col);
+    border-bottom: 2px solid var(--primary-col);
+}
+.username{
+    font-size: 20px;
+    font-weight: bold;
+    color:white
+}
+.userhandle{
+    color: var(--secondary-col);
+    font-size: 20px;
+
+}
+.feeds{
+
+    margin-top: 1rem;
+    margin-left:7rem;
+
+}
+.corner{
+    position: absolute;
+    right: 2rem;
+}
+.icons{
+         word-spacing: 1rem;
+        color: var(--secondary-col);
+}
+.icons >i{
+    margin: 0px 1rem;
+    margin-bottom: 1rem;
+}
+.icons >i:last-child{
+    margin-left: 7rem;
+}
+.img2{
+    position: absolute;
+    left: 1rem;
+}
+.search1{
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    font-size: 25px;
+    background-color:var(--primary-col);
+    color:blanchedalmond;
+    outline: 0;
+    border-color: black;
+    border-radius: 1.7rem;
+}
+.trends{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--primary-col);
+}
+.trendhead{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+
+
+}
+.tweettop,.tweettrend,.tweetnum{
+    display: block;
+}
+.tweettrend{
+    font-size: 18px;
+    font-weight: bold;
+}
+.tweettop,.tweetnum{
+    color: #C8C8C8;
+}
+.trend{
+    border-top: 2px solid var(--secondary-col);
+    border-bottom: 2px solid var(--secondary-col);
+}
+.trend >span{
+   margin-top: 5px;
+    margin-bottom: 5px;
+}
+.fimg{
+    width:70px;
+    height: 70px;
+    border-radius: 3rem;
+}
+.trend1{
+    border-top: 2px solid var(--secondary-col);
+    border-bottom: 2px solid var(--secondary-col);
+    padding: 0.3rem;
+    display: flex;
+}
+.nameUser{
+    margin-left:1rem ;
+    margin-top: 0.7rem;
+font-size: 20px;
+    font-weight: bold;
+}
+.username1{
+    color: #C8C8C8;
+    display: block;
+    font-size: 17px;
+    font-weight: normal;
+}
+.followbtn{
+    margin:0.5rem;
+    cursor: pointer;
+    color: blue;
+    border: 2px solid blue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+.thirddiv{
+    padding: 1rem;
+}
+.tweetbtn{
+    background-color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    width: 20%;
+    border-radius: 2rem;
+}
+.border-handle{
+    border-bottom: 2px solid var(--primary-col);
+
+}
